@@ -31,7 +31,7 @@
 // console.log(fruits?.[10])
 
 //with functions
-// const user={
+// const user={.
 //     greet(){
 //         console.log("hello")
 //     }
