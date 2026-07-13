@@ -38,3 +38,10 @@
 let age=0;
 age??=18;
 console.log(age)
+
+
+// | Operator | Assigns when...                | Replaces `0`? | Replaces `""`?     | Replaces `null`? |       |       |
+// | -------- | ------------------------------ | ------------- | ------------------ | ---------------- | ----- | ----- |
+// | `        |                                | =`            | Value is **falsy** | ✅ Yes            | ✅ Yes | ✅ Yes |
+// | `&&=`    | Value is **truthy**            | ❌ No          | ❌ No               | ❌ No             |       |       |
+// | `??=`    | Value is `null` or `undefined` | ❌ No          | ❌ No               | ✅ Yes            |       |       |
