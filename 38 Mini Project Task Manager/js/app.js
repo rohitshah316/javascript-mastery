@@ -17,7 +17,7 @@ function updateUI(tasks){
 
     renderTasks(result)
 }
-
+ 
 TaskModule.subscribe(updateUI)
 renderTasks(TaskModule.getTasks())
 setupEvents()
